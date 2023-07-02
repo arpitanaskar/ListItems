@@ -1,11 +1,10 @@
-// let mainHeader = document.getElementById("main-header");
+// let items = document.getElementsByClassName('list-group-item');
+// for (let i=0; i<items.length; i++) {
+//     items[i].style.fontWeight = "bold";
+// }
 
-// mainHeader.style.color = "red"
+let fifth = document.getElementsByClassName('fifth');
+// fifth.style.color = "red"
 
-let header = document.getElementById('main-header');
-let headerTitle = document.getElementById('header-title');
-header.style.borderBottom = "solid 3px #000"
-
-let addItems = document.getElementById("add-items");
-addItems.style.fontWeight = "bold";
-addItems.style.color = "green"
+let li = document.getElementsByTagName('li');
+li[4].style.color = "red";
